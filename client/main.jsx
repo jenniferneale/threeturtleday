@@ -5,8 +5,11 @@ import { render } from 'react-dom'
 import { BrowserRouter as Router } from 'react-router-dom';
 //import store from './store'
 import Root from './components/Root.jsx'
+//import createHistory from 'history/createBrowserHistory';
 
-render(<Router>
+//const history = createHistory();
+//history={history}
+render(<Router >
     <Root />
 </Router>,
     document.getElementById('app')

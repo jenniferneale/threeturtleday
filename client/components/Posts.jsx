@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 
 class Posts extends Component {
+    componentDidMount() {
+        console.log("mounted");
+    }
+
     componentDidCatch(error, info) {
         console.log("Caught: ", error, info);
     }
@@ -10,4 +15,4 @@ class Posts extends Component {
     }
 }
 
-export default Posts;
+export default withRouter(Posts);

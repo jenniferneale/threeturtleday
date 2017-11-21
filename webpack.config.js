@@ -13,7 +13,14 @@ module.exports = {
         loader: 'babel-loader',
         options: {
           presets: ['react', 'es2015'] // if you aren't using 'babel-preset-es2015', then omit the 'es2015'
-        }
+        }       
+        },
+      {
+          test: /\.css$/,
+          use: [
+              'style-loader',
+              'css-loader'
+          ]
       }
     ]
   }

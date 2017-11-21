@@ -1,3 +1,7 @@
+.rounded {
+    border-radius: 5px;
+}
+
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
     color: #ffffff;
@@ -11,7 +15,16 @@
     background-color: #008cba;
 }
 
+.navbar li{
+    padding:0px;
+    font-weight: bold;
+    margin:0px;
+    box-sizing:border-box;
+}
+
 .navbar {
+    background-color: black;
+    width: inherit;
     position: relative;
     z-index: 0;
 }
@@ -38,7 +51,63 @@
     }
 
 @media (min-width: 715px) {
-    .logo-head h1, h2 {
-        bottom:-10px;
+    .logo-head h1 {
+        bottom:-9px;
     }
+}
+
+@media (max-width: 500px){
+    .nav {
+        float:none;
+        text-align:center;
+    }
+
+    .nav li{
+        float:none;
+        display:inline-block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .subHeader {
+        font-size:1.8em;
+    }
+}
+
+.emailP {
+    padding-left: 1em;
+    padding-bottom: 1em
+}
+
+.paypalSpan {
+    text-align:center;
+}
+
+.story {
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.portfolio-bg {
+    background: url('images/CloseUp1.jpg');
+    background-size: cover;
+    padding: 0px;
+}
+
+.port-cat {
+    background-color: rgba(225,225,255,.8);
+    margin: 1em;
+    padding: 15px;
+}
+
+.resumeLink {
+    text-decoration: none;
+    margin: auto;
+}
+
+.resumeDiv {
+    display: block;
+    clear: both;
+    text-align: right;
+    padding: 1em 2em;
 }

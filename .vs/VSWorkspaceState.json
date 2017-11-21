@@ -6,6 +6,6 @@
     "\\public",
     "\\server"
   ],
-  "SelectedNode": "\\public\\yeti.bootstrap.min.css",
+  "SelectedNode": "\\client\\components\\Root.jsx",
   "PreviewInSolutionExplorer": false
 }
