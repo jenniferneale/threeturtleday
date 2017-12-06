@@ -19,7 +19,7 @@ const Portfolio = props => {
                     <h3>Education</h3>
                     <ul>
                         <li><a href="https://www.gracehopper.com/curriculum">Grace Hopper Program</a> at Fullstack Academy '17, Certificate in Software Engineering</li>
-                        <li>Vassar College '11, BA, Cognitive Science major and coursework in Philosophy, Computer Science, Psychology, German, Robotics</li>
+                        <li>Vassar College '11, BA, Cognitive Science major</li>
                         <li>Southern Connecticut State University, fiction courses</li>
                         <li>Watkinson School '07, High School and <a href="http://www.watkinson.org/podium/default.aspx?t=137159" className="disabled" target="_blank">Creative Arts Diploma</a></li>
                     </ul>

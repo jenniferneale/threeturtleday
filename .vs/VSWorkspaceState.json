@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\client",
-    "\\client\\components",
-    "\\public",
-    "\\server"
+    "\\client\\components"
   ],
-  "SelectedNode": "\\client\\components\\Root.jsx",
+  "SelectedNode": "\\client\\components\\Contact.jsx",
   "PreviewInSolutionExplorer": false
 }

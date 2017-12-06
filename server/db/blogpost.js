@@ -16,7 +16,7 @@ const Blogpost = db.define('Blogpost', {
     },
     body: {
         type: TEXT,
-        isEmail: true
+        defaultValue: "Some content text here"
     },
     cardImage: {
         type: STRING,
