@@ -1,5 +1,5 @@
 'use strict';
-const { STRING, TEXT } = require('sequelize');
+const { STRING, TEXT, DATE, NOW } = require('sequelize');
 const db = require('./index');
 // Require all the models
 // Running each model (i.e. table) module (i.e. file) registers each model into our sequelize db so any other part of the application could call db.model('user') OR db.models.user to get access to the `user` model.
@@ -21,6 +21,10 @@ const Blogpost = db.define('Blogpost', {
     cardImage: {
         type: STRING,
         defaultValue: "images/dandelion.jpg"
+    },
+    originalDate: {
+        type: DATE,
+        defaultValue: NOW
     }
 })
 
