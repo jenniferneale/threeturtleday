@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Portfolio = props => {
+const About = props => {
     
     return (
         <article className="story">
@@ -41,4 +41,4 @@ const Portfolio = props => {
     )
 }
 
-export default Portfolio;
+export default About;

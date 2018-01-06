@@ -5,8 +5,7 @@ import { Route, Switch, Redirect } from 'react-router';
 import Post from './Post.jsx';
 import Posts from './Posts.jsx';
 import NotFound from './NotFound.jsx';
-import Contact from './Contact.jsx';
-import Portfolio from './Portfolio.jsx';
+import About from './About.jsx';
 import { withRouter, NavLink } from 'react-router-dom'; //BrowserRouter as Router
 //import { NavLink, withRouter } from 'react-router';
 //import '../../public/yeti.bootstrap.min.css';
@@ -27,9 +26,11 @@ class Root extends Component {
                 </div>
                 <div className="navbar navbar-default">
                     <ul className="nav navbar-nav nav-pills">
-                        <li><NavLink activeClassName="active" to="/posts">Home</NavLink></li>
-                        <li><NavLink activeClassName="active" to="/portfolio">Portfolio</NavLink></li>
-                        <li><NavLink activeClassName="active" to="/contact">Contact</NavLink></li>
+                        <li><NavLink className="nav-link" activeClassName="active" to="/posts">Home</NavLink></li>
+                        <li><NavLink className="nav-link" activeClassName="active" to="/about">About</NavLink></li>
+                        <li><a href="mailto:jeneale6@gmail.com"><span className="fas fa-envelope"></span></a></li>
+                        <li><a href="http://www.linkedin.com/in/jennifer-neale-9700a054"><span className="fab fa-linkedin-in"></span></a></li>
+                        <li><a href="https://github.com/jenniferneale"><span className="fab fa-github"></span></a></li>
                     </ul>
                 </div>
             </header>
@@ -37,9 +38,9 @@ class Root extends Component {
                 <Switch>
                     <Route exact path='/posts' component={Posts} />
                     <Route path='/posts/:id' component={Post} />
-                    <Route path='/portfolio' component={Portfolio} />
-                    <Route path='/contact' component={Contact} />
+                    <Route path='/about' component={About} />
                     <Route exact path='/' component={Posts} />
+                    <Route path='index' component={Posts} />
                     <Route path='*' component={NotFound} />
                 </Switch>
             </div>
