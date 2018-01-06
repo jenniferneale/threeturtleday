@@ -25,7 +25,7 @@ class Post extends Component {
         </div>
     }
 }
-
+//TODO: Add left and right arrow to cycle through posts
 const mapState = ({ currentPost }) => ({ currentPost });
 
 const mapDispatchToProps = (dispatch, ownProps) => {

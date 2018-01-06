@@ -30,6 +30,39 @@
     <div id="app"></div>
 
     <script src="//code.jquery.com/jquery.min.js"></script>
-    <script async defer src="/bundle.js"></script> 
+    <script async defer src="/bundle.js"></script>
+    <script src="/isotope/isotope.pkgd.min.js"></script>
+		<script>
+			
+			var $container;
+
+			function triggerIsotope() {
+			  // don't proceed if $container has not been selected
+			  if ( !$container ) {
+				return;
+			  }
+			  // init Isotope
+			  $container.isotope({
+				// options
+				itemSelector: '.item',
+				//layoutMode: 'fitRows'
+			  });
+			}
+			// trigger Isotope on document ready
+			$(function(){
+			  $container = $('#container');
+			  triggerIsotope();
+			});
+			// trigger Isotope when fonts have loaded
+			Typekit.load({
+			  active: triggerIsotope,
+			  inactive: triggerIsotope
+			});	
+
+			// layout Isotope again after all images have loaded
+			$container.imagesLoaded( function() {
+			  $container.isotope('layout');
+			});			
+</script>
 </body>
 </html>
