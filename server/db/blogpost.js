@@ -14,6 +14,9 @@ const Blogpost = db.define('Blogpost', {
         type: STRING,
         notNull: true
     },
+    teaserText: {
+        type: STRING,
+    },
     body: {
         type: TEXT,
         defaultValue: "Some content text here"

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 //INITAL STATE
 const initialState = {
-    blogposts: [],    
+    posts: [],    
     currentPost: {}
 }
 
@@ -20,13 +20,13 @@ export default function rootReducer(state = initialState, action) {
     const assigner = (propy, val) => Object.assign({}, state, { [propy]: val });    
     switch (action.type) {
         case acts.GET_POSTS:
-            return assigner('blogposts', action.val);
+            return assigner('posts', action.val);
         case acts.GET_POST:
             return assigner('currentPost', action.val);
         case acts.ADD_POST:
-            return assigner('blogposts', state.blogPosts.concat(action.val));
-        case acts.REMOVE_CAMPUS:
-        return assigner('blogposts', state.blogPosts.filter(bp => bp.id != action.val));
+            return assigner('posts', state.posts.concat(action.val));
+        case acts.REMOVE_POST:
+        return assigner('posts', state.posts.filter(bp => bp.id != action.val));
         default: return state
     }
 }

@@ -112,3 +112,41 @@
     text-align: right;
     padding: 1em 2em;
 }
+
+.card {
+    display:inline-block;  
+    padding: 0px 5px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    /*background-color:rgba(225,225,255,.8);*/
+    /*For different screen sizes, change card height. Use bootstrap to change width too.*/
+   }
+   
+   .card:hover {
+    background-color:#008CBA;
+    }
+   
+   .card div {
+    display:inline-block;
+    min-height:175px;  
+   }   
+   
+   .card>.container {
+    display:inline-block;
+    padding: 5px;
+    margin: 0px;
+    background-color:#E7E7E7;/*rgba(225,225,255,.8);*/
+    clear:both;
+    border: 2px solid #999;
+    text-align:left;
+    color: black;
+    border-radius: 5px; 
+   }
+  
+  .card div.pic {
+      background: url("images/dandelion.jpg");
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      border-radius: 5px;
+   }
