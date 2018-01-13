@@ -43,7 +43,7 @@ Object.keys(initialState).forEach(key => {
     stateProps[key.toUpperCase()] = key;
 });
 
-export const fetchThings = (thingType, actionType, id = '') => dispatch => {
+export const fetchThings = (thingType, actionType, id = '') => dispatch => {    
     axios.get(`/api/${thingType}/${id}`)
         .then(res => dispatch(sendAction(actionType, res.data)))
         .catch(err => console.error('Fetching ' + thingType + ' unsuccessful', err));

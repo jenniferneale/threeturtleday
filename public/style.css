@@ -114,7 +114,7 @@
 }
 
 .card {
-    display:inline-block;  
+    /*display:inline-block;  */
     padding: 0px 5px;
     margin: 5px 0px;
     border-radius: 5px;
@@ -126,13 +126,17 @@
     background-color:#008CBA;
     }
    
-   .card div {
+   /*.card>div {
     display:inline-block;
     min-height:175px;  
-   }   
+   }*/
+
+   .card .pic {
+       min-height:175px;
+   }
    
-   .card>.container {
-    display:inline-block;
+   .card .container {
+    /*display:inline-block;*/
     padding: 5px;
     margin: 0px;
     background-color:#E7E7E7;/*rgba(225,225,255,.8);*/
@@ -144,9 +148,19 @@
    }
   
   .card div.pic {
-      background: url("images/dandelion.jpg");
+      /*background: url("images/dandelion.jpg");*/
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
       border-radius: 5px;
    }
+
+.blogContainerCenter {
+    text-align: left;
+}
+
+.huge {
+    min-height: 400px;
+}
+
+* { box-sizing: border-box; }

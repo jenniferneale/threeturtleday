@@ -34,7 +34,7 @@ class Root extends Component {
                     </ul>
                 </div>
             </header>
-            <div className="container col-md-12">
+            <div className="container-fluid"> {/*container col-md-12*/}
                 <Switch>
                     <Route exact path='/posts' component={Posts} />
                     <Route path='/posts/:id' component={Post} />
