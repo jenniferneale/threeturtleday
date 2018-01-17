@@ -5,6 +5,7 @@ import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import { stateProps, acts, fetchThings } from '../reducers';
 import { NavLink } from 'react-router-dom';
+import _ from 'underscore';
 
 
 class Posts extends Component {
@@ -20,7 +21,7 @@ class Posts extends Component {
                 itemSelector: '.card',
                 percentPosition: true,
                 masonry: {
-                    columnWidth: '.grid-sizer'
+                    columnWidth: '.card'
                   }
                 });
         }
@@ -38,30 +39,33 @@ class Posts extends Component {
         /* */     //NEED WEBPACK LOADER??? TRY JQUERY ON CARD LOAD  
     }
 
-    componentDidUpdate(prevProps){
-        // The list of keys seen in the previous render
-        /*let currentKeys = _.map(prevProps.children, (n) => n.key);
-
-        // The latest list of keys that have been rendered
-        let newKeys = _.map(this.props.children, (n) => n.key);
-
-        // Find which keys are new between the current set of keys and any new children passed to this component
-        let addKeys = _.difference(newKeys, currentKeys);
-
-        // Find which keys have been removed between the current set of keys and any new children passed to this component
-        let removeKeys = _.difference(currentKeys, newKeys);
-
-        if (removeKeys.length > 0) {
-            _.each(removeKeys, removeKey => this.iso.remove(document.getElementById(removeKey)));
-            this.iso.arrange();
+    // Filter and sort are coming from the Parent.
+    componentWillReceiveProps(nextProps) {
+        if (nextProps.filter && !_.isEqual(nextProps.filter, this.props.filter)) {
+            this.iso.arrange({ filter: this.filterFns[nextProps.filter] || nextProps.filter });
         }
-        if (addKeys.length > 0) {
-            this.iso.addItems(_.map(addKeys, (addKey) => document.getElementById(addKey)));
-            this.iso.arrange();
-        }*/
-        this.iso.addItems(document.getElementsByClassName("card"));
-        this.iso.arrange();
-        console.log(this.iso);
+        if (nextProps.sort != null) {
+            this.iso.arrange({sortBy: nextProps.sort});
+        }
+}
+    
+    componentDidUpdate(prevProps){
+                // The list of keys seen in the previous render
+                let currentKeys = _.map(this.iso.items, (n) => n.element.className.split(" ").pop());
+                // The latest list of keys that have been rendered
+                let newKeys = _.map(document.getElementsByClassName("card"), (n) => n.className.split(" ").pop());
+                // Find which keys are new between the current set of keys and any new children passed to this component
+                let addKeys = _.difference(newKeys, currentKeys);
+                // Find which keys have been removed between the current set of keys and any new children passed to this component
+                let removeKeys = _.difference(currentKeys, newKeys);        
+                if (removeKeys.length > 0) {
+                    _.each(removeKeys, removeKey => this.iso.remove(document.getElementsByClassName(removeKey)[0]));
+                    this.iso.arrange();
+                }
+                if (addKeys.length > 0) {
+                    this.iso.addItems(_.map(addKeys, (addKey) => document.getElementsByClassName(addKey)[0]));
+                    this.iso.arrange();
+        }
     }
 
     componentDidCatch(error, info) {
@@ -70,9 +74,9 @@ class Posts extends Component {
 
     render() {
         return <div id="isotope-container" className="posts center container" ref="isotopeContainer">
-            <div className="grid-sizer card col-md-4"></div>
+            {/*<div className="grid-sizer card col-md-4"></div>*/}
             {this.props &&  this.props.posts && this.props.posts.map(bp =>             
-                <div className="card col-md-4 col-sm-6 col-xs-12" key={bp.id} >
+                <div className={`card col-md-4 col-sm-6 col-xs-12 card${bp.id}`} key={bp.id} >
                 <NavLink to={`/posts/${bp.id}`}  >                    
                 { bp.teaserText? 
                     <div className="container col-xs-12">
@@ -84,7 +88,7 @@ class Posts extends Component {
                         </div>    				
                     </div>
                     :
-                    <div className="container col-xs-12 huge">
+                    <div className="container col-xs-12">
                         <div className="col-xs-12 pic" style={{background:`url(${bp.cardImage}) no-repeat scroll center center / cover transparent`}}>
                         </div>
                         <div className="col-xs-12 pull-left">
