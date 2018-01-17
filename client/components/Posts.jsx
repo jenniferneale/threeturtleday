@@ -77,19 +77,11 @@ class Posts extends Component {
             {this.props &&  this.props.posts && this.props.posts.map(bp =>             
                 <div className={`card col-md-4 col-sm-6 col-xs-12 card${bp.id}`} key={bp.id} >
                 <NavLink to={`/posts/${bp.id}`}  >                    
-                { bp.cardImage?
-                    <div className="container col-xs-12">                    
-                    <div className="col-xs-12 pull-left">
-                        <h3>{bp.title}</h3>
-                        <p style={{textAlign:'justify'}}>{bp.teaserText}</p>
-                    </div>    				
-                </div>
-                :
-                bp.teaserText? 
+                { bp.teaserText? 
                     <div className="container col-xs-12">
-                        <div className="col-xs-4 pull-left pic" style={{background:`url(${bp.cardImage}) no-repeat scroll center center / cover transparent`}}>
-                        </div>
-                        <div className="col-xs-8 pull-left">
+                        {bp.cardImage && <div className="col-xs-4 pull-left pic" style={{background:`url(${bp.cardImage}) no-repeat scroll center center / cover transparent`}}>
+                        </div>}
+                        <div className={bp.cardImage? "col-xs-8 pull-left" : "col-xs-12"}>
                             <h3>{bp.title}</h3>
                             <p style={{textAlign:'justify'}}>{bp.teaserText}</p>
                         </div>    				
