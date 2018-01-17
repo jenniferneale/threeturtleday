@@ -3,6 +3,7 @@ import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import { stateProps, acts, fetchThings } from '../reducers';
 import { NavLink } from 'react-router-dom';
+import jQuery from 'jquery';
 
 class Post extends Component {
     componentDidMount() {
@@ -28,7 +29,7 @@ class Post extends Component {
                     <h2>{this.props.currentPost.title}</h2>
                     <p>{this.props.numPosts}</p>
                     <p><small>{this.props.currentPost.originalDate.slice(0,10)}</small></p>
-                    <div>{this.props.currentPost.body}</div>
+                    <div dangerouslySetInnerHTML={{__html: this.props.currentPost.body}}></div>
                 </div>
                 { (this.props.currentPost.id + 1 <= 6) && 
                 <div className="col-sm-1">

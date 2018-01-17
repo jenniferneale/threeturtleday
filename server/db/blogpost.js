@@ -23,7 +23,7 @@ const Blogpost = db.define('Blogpost', {
     },
     cardImage: {
         type: STRING,
-        defaultValue: "images/dandelion.jpg"
+        //defaultValue: "images/dandelion.jpg"
     },
     originalDate: {
         type: DATE,
