@@ -18,7 +18,10 @@ class Posts extends Component {
             this.iso = new Isotope(ReactDOM.findDOMNode(this.refs.isotopeContainer), {
                 // options
                 itemSelector: '.card',
-                layoutMode: 'fitRows'
+                percentPosition: true,
+                masonry: {
+                    columnWidth: '.grid-sizer'
+                  }
                 });
         }
     }
@@ -37,7 +40,7 @@ class Posts extends Component {
 
     componentDidUpdate(prevProps){
         // The list of keys seen in the previous render
-        let currentKeys = _.map(prevProps.children, (n) => n.key);
+        /*let currentKeys = _.map(prevProps.children, (n) => n.key);
 
         // The latest list of keys that have been rendered
         let newKeys = _.map(this.props.children, (n) => n.key);
@@ -55,7 +58,10 @@ class Posts extends Component {
         if (addKeys.length > 0) {
             this.iso.addItems(_.map(addKeys, (addKey) => document.getElementById(addKey)));
             this.iso.arrange();
-}
+        }*/
+        this.iso.addItems(document.getElementsByClassName("card"));
+        this.iso.arrange();
+        console.log(this.iso);
     }
 
     componentDidCatch(error, info) {
@@ -64,7 +70,7 @@ class Posts extends Component {
 
     render() {
         return <div id="isotope-container" className="posts center container" ref="isotopeContainer">
-            {/*<div className="grid-sizer col-xs-4 col-md-4 col-sm-4"></div>*/}
+            <div className="grid-sizer card col-md-4"></div>
             {this.props &&  this.props.posts && this.props.posts.map(bp =>             
                 <div className="card col-md-4 col-sm-6 col-xs-12" key={bp.id} >
                 <NavLink to={`/posts/${bp.id}`}  >                    
