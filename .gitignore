@@ -2,3 +2,4 @@ node_modules
 bundle.js
 bundle.js.map
 .vs
+server/db/seed-archive.js
