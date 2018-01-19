@@ -6,7 +6,7 @@ const About = props => {
     return (
         <article className="story">
             <div className="portfolio-bg img-responsive col-xs-12 rounded">
-                <div className="port-cat col-md-3 rounded">
+                <div className="port-cat col-md-2 rounded">
                     <h3>Experience</h3>
                     <ul>
                         <li>Sales Coordinator at <a href="http://global.oup.com">Oxford University Press</a> (May 2014 - August 2017)</li>
@@ -15,7 +15,7 @@ const About = props => {
                         <li>Grant Research Assistant working on <a href="http://wordnet.princeton.edu">Princeton WordNet</a> at Vassar College (May 2010 - May 2011)</li>
                     </ul>
                 </div>
-                <div className="port-cat col-md-3 rounded">
+                <div className="port-cat col-md-2 rounded">
                     <h3>Education</h3>
                     <ul>
                         <li><a href="https://www.gracehopper.com/curriculum">Grace Hopper Program</a> at Fullstack Academy '17, Certificate in Software Engineering</li>
@@ -32,7 +32,20 @@ const About = props => {
                         <li>Data analysis</li>
                     </ul>
                 </div>
-
+                <div className=" port-cat col-md-2 rounded">
+                    <h3>Favorite Technologies</h3>
+                    <ul>
+                        <li>Unity</li>
+                        <li>C#</li>
+                        <li>Javascript</li>
+                        <li>Java</li>
+                        <li>Node</li>
+                        <li>React</li>
+                        <li>Redux</li>
+                        <li>Express</li>
+                        <li>PostgreSQL</li>                        
+                    </ul>
+                </div>
                 <div className="resumeDiv rounded">
                     <a href="https://www.dropbox.com/s/mpnlqe4nuc4bpff/JNealeResume2017.pdf?dl=0" className="resumeLink"><button type="button" className="btn btn-default">Download Jenn's Resume (PDF)</button></a>
                 </div>
