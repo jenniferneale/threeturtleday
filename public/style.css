@@ -2,6 +2,14 @@
     border-radius: 5px;
 }
 
+.app-container {
+    width: 100vw;
+}
+
+#isotope-container {
+    width: 90vw;
+}
+
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus {
     color: #ffffff;

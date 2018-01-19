@@ -18,7 +18,7 @@ class Root extends Component {
     }
 
     render() {
-        return <div className="container">
+        return <div className="container app-container">
             <header className="page-header top">
                 <div className="logo-head">
                     <h1><span className="logo"><NavLink to="/posts">Three Turtle Day</NavLink>&nbsp;</span></h1>
@@ -26,7 +26,7 @@ class Root extends Component {
                 </div>
                 <div className="navbar navbar-default">
                     <ul className="nav navbar-nav nav-pills">
-                        <li><NavLink className="nav-link" activeClassName="active" to="/posts">Home</NavLink></li>
+                        <li><NavLink className="nav-link" activeClassName="active" to="/">Home</NavLink></li>
                         <li><NavLink className="nav-link" activeClassName="active" to="/about">About</NavLink></li>
                         <li><a href="mailto:jeneale6@gmail.com"><span className="fas fa-envelope fa-lg"></span></a></li>
                         <li><a href="http://www.linkedin.com/in/jennifer-neale-9700a054"><span className="fab fa-linkedin-in fa-lg"></span></a></li>
