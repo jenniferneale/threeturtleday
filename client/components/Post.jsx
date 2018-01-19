@@ -31,7 +31,7 @@ class Post extends Component {
                     <p><small>{this.props.currentPost.originalDate.slice(0,10)}</small></p>
                     <div dangerouslySetInnerHTML={{__html: this.props.currentPost.body}}></div>
                 </div>
-                { (this.props.currentPost.id + 1 <= 6) && 
+                { (this.props.currentPost.id + 1 <= 19) && 
                 <div className="col-sm-1">
                     <a href={`/posts/${this.props.currentPost.id+1}`}>
                     <span className="fas fa-angle-right fa-lg"></span>
