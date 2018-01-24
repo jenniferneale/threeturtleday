@@ -97,6 +97,10 @@
     padding-right: 2em;
 }
 
+.story-pic {
+    margin: 1em;
+}
+
 .portfolio-bg {
     background: url('images/CloseUp1.jpg');
     background-size: cover;
