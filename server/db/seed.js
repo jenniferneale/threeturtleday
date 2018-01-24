@@ -63,7 +63,14 @@ db.sync({ force: true })
                 originalDate: '9 January 2014',
                 cardImage: 'images/Blog23JFNealeUshersComic1-small.jpg',
                 teaserText: 'Oh no! The Doctor\'s enemies: the Frolics!',
-                body: blogArchive.b11Doctor
+                body: blogArchive.b11Doctor,
+            },
+            {
+                title: 'Gaze Visualizer',
+                originalDate: '1 December 2013',
+                teaserText: 'Visualizing reading gaze data at the University of Notre Dame with C#',
+                cardImage: 'images/GazeVizScreenshot.png',
+                body: blogArchive.b22GazeViz,
             },
             {
                 title: 'Comic: Super Chibi Chica Tita',
@@ -117,8 +124,32 @@ db.sync({ force: true })
                 originalDate: "13 September 2012",
                 body: blogArchive.b2Onion
             }, 
-            { title: 'A Melodramatic Cactus', teaserText: 'Once upon a time there was a cactus named Fred.',              
-               body: blogArchive.b1Cactus, originalDate: new Date("13 September 2012") },    
+            { title: 'A Melodramatic Cactus', 
+                teaserText: 'Once upon a time there was a cactus named Fred.',              
+               body: blogArchive.b1Cactus, 
+               originalDate: new Date("13 September 2012")
+            },
+            {
+                title: 'What Hands Are For',
+                teaserText: 'A romantic short story in which Eiji joins the military and hopes his boyfriend will wait for him.',
+                originalDate: '15 May 2011',
+                cardImage: 'images/DinosaurJFNealesmall.jpg',
+                body: blogArchive.b20Hands,
+            },
+            {
+                title: 'Flowers',
+                teaserText: 'In which a boy makes a wish.',
+                originalDate: '15 May 2011',
+                cardImage: 'images/dandelion.jpg',
+                body: blogArchive.b21Flowers,
+            },
+            {
+                title: 'Kittens: the Adventure',
+                teaserText: 'Collect kittens for a dragon in this Java game.',
+                originalDate: '15 May 2011',
+                cardImage: 'images/KittenScreenshot.png',
+                body: blogArchive.b23Kittens,
+            },
         ]);
     })
     /*.then(() => {

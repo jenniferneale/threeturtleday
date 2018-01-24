@@ -6,7 +6,7 @@ const About = props => {
     return (
         <article className="story">
             <div className="portfolio-bg img-responsive col-xs-12 rounded">
-                <div className="port-cat col-md-2 rounded">
+                <div className="port-cat col-md-3 rounded">
                     <h3>Experience</h3>
                     <ul>
                         <li>Sales Coordinator at <a href="http://global.oup.com">Oxford University Press</a> (May 2014 - August 2017)</li>
@@ -15,7 +15,7 @@ const About = props => {
                         <li>Grant Research Assistant working on <a href="http://wordnet.princeton.edu">Princeton WordNet</a> at Vassar College (May 2010 - May 2011)</li>
                     </ul>
                 </div>
-                <div className="port-cat col-md-2 rounded">
+                <div className="port-cat col-md-3 rounded">
                     <h3>Education</h3>
                     <ul>
                         <li><a href="https://www.gracehopper.com/curriculum">Grace Hopper Program</a> at Fullstack Academy '17, Certificate in Software Engineering</li>
@@ -24,7 +24,7 @@ const About = props => {
                         <li>Watkinson School '07, High School and <a href="http://www.watkinson.org/podium/default.aspx?t=137159" className="disabled" target="_blank">Creative Arts Diploma</a></li>
                     </ul>
                 </div>
-                <div className=" port-cat col-md-3 rounded">
+                <div className=" port-cat col-md-2 rounded">
                     <h3>Interests</h3>
                     <ul>
                         <li>Interactive stories</li>

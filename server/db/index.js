@@ -5,7 +5,7 @@ const Sequelize = require('sequelize');
 const pkg = require('../../package.json');
 
 const name = process.env.threeturtleday || pkg.name;
-const connectionString = process.env.DATABASE_URL /*|| 'postgresql-tetrahedral-22236'*/ || `postgres://localhost:5432/${name}`;
+const connectionString = process.env.DATABASE_URL || 'postgresql-tetrahedral-22236' || `postgres://localhost:5432/${name}`;
 
 console.log(chalk.yellow(`Opening database connection to ${connectionString}`));
 

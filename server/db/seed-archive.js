@@ -328,8 +328,613 @@ const archive = {
     "<p>He took Time, then, to do with him all the things he’d wanted to do. He and she made more time, and this Time was different. It laughed and ran and jumped and made silly faces and passed gas and once, when they all went to the park, it flew." +
     "And when, as an old man, it was his turn to shake and turn grey, and he told her he was afraid he wasn’t ready, she held his face in her hands and assured him he would have as little or as much Time as he wanted.</p>"
     ,
-    
+    b20Hands: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hi," +
+    "can I take your order?”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“I’d" +
+    "like a barbeque sandwich, please.”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“No.”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+    "gaped, uncertain.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I pointed to the" +
+    "sign.<span style=\"mso-spacerun: yes;\">&nbsp; </span>It probably wasn’t visible behind" +
+    "the long line of impatient, hungry commuters.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>“<i style=\"mso-bidi-font-style: normal;\">Oyame puta, </i>you have new" +
+    "sandwiches.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I wasn’t sure I’d said it" +
+    "right, but she didn’t seem to care either way.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>I guess you get stranger things in fast-food places in California than" +
+    "little Asian men swearing in Spanish.</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Erm," +
+    "do we?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>She looked down at her register" +
+    "and started skimming the screen with a finger.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>The burble of the customers behind me took on a more mutinous tone.</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+    "shuffled my feet under the stare of a Mexican woman gripping two little boys by" +
+    "the wrist, one in each hand.<span style=\"mso-spacerun: yes;\">&nbsp; </span>There was" +
+    "another one attached to her ankle, sitting on her foot, asking if the “taxi”" +
+    "could move.<span style=\"mso-spacerun: yes;\">&nbsp; </span>A man in a suit behind her" +
+    "was checking his watch, and behind him, a bunch of teenagers gawked up at the" +
+    "menu, probably frustrating those further back because they hadn’t moved up with" +
+    "the rest of the line.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Never mind, give" +
+    "me a number three.”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<br /></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“<i style=\"mso-bidi-font-style: normal;\">Carajo</i>, Eiji, babe,” Hernán spat," +
+    "sitting down at the slimy square table.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>“You’re a man; act like it, will you?<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>What’s the point of me teaching you to swear if you’re going to give up" +
+    "on a freaking barbeque sandwich?”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+    "looked down and began to push back my cuticles.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+    "</span>Despite all his slang and crudeness, he still had the most delicate," +
+    "effeminate hands I’d ever seen.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I could" +
+    "work on my cuticles and my filing all day, and mine would still look like" +
+    "elephant feet next to his pale, smooth, thin hands.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I asked him once if he used cream to keep" +
+    "them so nice, but the only answer I got was a black eye.<span style=\"mso-spacerun: yes;\">&nbsp; </span>That one was difficult to explain when my" +
+    "mother came to visit, but I did feel justified later when I found the" +
+    "rejuvenating aloe hand-in-glove kit under his sink.</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“I’m" +
+    "no good at this, okay?<span style=\"mso-spacerun: yes;\">&nbsp; </span>I’m still" +
+    "practicing.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I said it right, didn’t I?”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Your" +
+    "pronunciation’s great, but the intent is what’s necessary, <i style=\"mso-bidi-font-style: normal;\">coño</i>.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>He stretched languidly," +
+    "his shoulder joint complaining with a loud ‘pop.’</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Don’t" +
+    "call me that.<span style=\"mso-spacerun: yes;\">&nbsp; </span>That’s disgusting.”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">He" +
+    "ignored me and poured a packet of salt over his salt-encrusted French fries" +
+    "before picking one up and dipping it in ketchup.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“The next time you come by, I should" +
+    "introduce you to my <i style=\"mso-bidi-font-style: normal;\">abuela</i>.<span style=\"mso-spacerun: yes;\">&nbsp; </span>She’s the master.”</span></div>" +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+    "<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“I" +
+    "met her, remember?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>The tiny" +
+    "white-haired woman had condemned me and all of my relatives and descendants" +
+    "into damnation for several eternities.</span></div>"
+    +
+    "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“That’s" +
+"right!<span style=\"mso-spacerun: yes;\">&nbsp; </span>Wow.<span style=\"mso-spacerun: yes;\">&nbsp; </span>How’d I forget?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>He squeaked in perfect imitation: “<i style=\"mso-bidi-font-style: normal;\">Carajo!<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Mierda!<span style=\"mso-spacerun: yes;\">&nbsp; </span>Dejame!<span style=\"mso-spacerun: yes;\">&nbsp; </span>Maldito sea!<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Malditos sean sus hijos!”</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>He" +
+"raised one neat black eyebrow.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“That’s" +
+"what you get for telling an old lady you’re gay, babe.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But you know, you ought to play guitar.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">A" +
+"pickle slipped out of my cheeseburger.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>“Wait, what?<span style=\"mso-spacerun: yes;\">&nbsp; </span>What does-”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Nothing.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I think you should play <i style=\"mso-bidi-font-style: normal;\">guitarra</i> instead of violin.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>I’ll teach you.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“But" +
+"I like the violin,” I said, imagining the horror that would etch itself on my" +
+"mother’s face if I told her I was giving up the violin after twenty years.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“No" +
+"you don’t.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“You" +
+"sound like that cashier woman, you… you <i style=\"mso-bidi-font-style: normal;\">cabrón.</i>”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Fine.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Violin.”<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>He threw a French fry, already dipped, at my face, and continued despite" +
+"my complaint.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“But at least like fiddle" +
+"or something.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Fiddle’s an instrument of" +
+"the people.<span style=\"mso-spacerun: yes;\">&nbsp; </span>You have to make pacts with" +
+"the devil to get good at the fiddle, like in stories.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Violin, that’s for rich Mozart <i style=\"mso-bidi-font-style: normal;\">mafiosos</i>.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hernán," +
+"Mozart was not a Mafioso.<span style=\"mso-spacerun: yes;\">&nbsp; </span>And you got" +
+"ketchup in my ear.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I found myself" +
+"wishing we had taken the food back to my apartment.<span style=\"mso-spacerun: yes;\">&nbsp; </span>There, when we were alone, he might have" +
+"wiped my ear off with a napkin himself.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>He wouldn’t come near me in public unless it was with a weapon.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“I read somewhere about this famous violin" +
+"player, who only played barefoot, because the angels that inspired him came up" +
+"through the soles of his feet.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“If" +
+"they’re coming up through the soles of his feet, it’s probably ringworm or" +
+"broken glass.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Demons would be a better" +
+"bet than that.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Besides, demons are" +
+"cheaper than angels.<span style=\"mso-spacerun: yes;\">&nbsp; </span>No pretentions, no" +
+"playing for anyone else.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Fiddlers and" +
+"guitarists, we play for ourselves.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I" +
+"don’t know too many angels.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>He looked" +
+"at me, then glanced away, as if he’d had an impure thought.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hernán,”" +
+"I said, suddenly offended, getting to my feet and taking my tray of food, “I" +
+"hope to God I never have to live inside your head.”</span></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<br /></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt;\">***</span></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"used to think military outfits were pretty sharp.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I came to realize later that fatigues are" +
+"hideous on anyone; it’s a shame soldiers all have to look ugly.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But if nothing else, the uniforms have a" +
+"fantastic number of pockets in which to store all those useless items you can’t" +
+"do without.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Standing on guard duty, I" +
+"fiddled with the ring in my pocket, turning it over and over, feeling the" +
+"indentation where the gold gave way to three small diamonds in a row, set flush" +
+"into the gold.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">The" +
+"desert was, as usual, deserted.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"let the ring slip onto each finger, each one evoking a different thought.<span style=\"mso-spacerun: yes;\">&nbsp; </span>On my index finger, it was magic, and I was" +
+"invisible.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I could walk back down the stairs," +
+"drop my gun on the table, and waltz into town, right past the soldiers and" +
+"civilians.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I could steal a car and drive" +
+"so fast I’d skim straight over the Atlantic and land in California.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But maybe I’d stop and make a face at my" +
+"sergeant first.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Maybe I’d walk through" +
+"gunfire, feeling invincible, and find myself bleeding on the ground with a" +
+"bullet in my stomach.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I didn’t think" +
+"having a magic ring would qualify me for magic elf medicine.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Heroes are saved by chance, not by insurance" +
+"policies.<span style=\"mso-spacerun: yes;\">&nbsp; </span>What if they didn’t find" +
+"me?<span style=\"mso-spacerun: yes;\">&nbsp; </span>Someone could trip over my body if I" +
+"was lucky.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But perhaps I’d simply rot," +
+"invisible, until the ring fell off my finger and rolled away.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I might be okay with that, if the war was" +
+"over by then.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I imagined a skinny little" +
+"Iraqi boy passing by as I flashed back into existence.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He’d run and tell his mother, and a nice man" +
+"with a wheelbarrow would put me in a grave and sing one of those pretty Arabic" +
+"songs over me.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">The" +
+"ring slipped off my index finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I" +
+"stroked the broken nail of my middle finger through the gold circle, and then" +
+"spun the ring about my finger until it caught above my second joint.<span style=\"mso-spacerun: yes;\">&nbsp; </span>My hand instinctively twisted into the shape" +
+"of a dinosaur, like he’d shown me, middle finger pointed out as the long neck" +
+"and head, thumb and fingers dropped into alignment as legs.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I let the legs wiggle against the fabric of" +
+"my pocket, imagining that the dinosaur’s feet were caught in the frayed, sandy" +
+"threads at the bottom of that dark pit.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>The ring was the dinosaur’s necklace.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Maybe he was the king of the dinosaurs, with such fine" +
+"accoutrements.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Hernán would have called" +
+"my dinosaur a Mafioso.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Hernán suspected" +
+"everyone wealthy of being a Mafioso.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"took my hand out of my pocket and let the dinosaur walk along the balcony" +
+"rail.<span style=\"mso-spacerun: yes;\">&nbsp; </span>No one would see, this far away" +
+"from town.<span style=\"mso-spacerun: yes;\">&nbsp; </span>If terrorists saw my" +
+"dinosaur, I’d have a lot more to worry about than looking like a stupid" +
+"five-year-old.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The dinosaur picked up" +
+"its feet for inspection.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The railing was" +
+"filthy; the dust outlined my fingerprints. <span style=\"mso-spacerun: yes;\">&nbsp;</span>I brushed them off on my pants.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Oop!<span style=\"mso-spacerun: yes;\">&nbsp; </span>The ring!</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"snatched it up off the stone, as if the five-second rule applied to engagement" +
+"rings.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">“No, sorry, Eiji</i>,<i style=\"mso-bidi-font-style: normal;\"> babe,</i>”" +
+"Hernán would tell me.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">“All the magical lawfulness wears off if you" +
+"drop it.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Maybe the conservative Mafiosos" +
+"will refund you?”</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>Well, if the magic" +
+"was gone already, it wouldn’t hurt if I played with it some more.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Thoughtful," +
+"I tried it on my left ring finger, as I had a hundred times today, as I had a" +
+"thousand times this month.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Arteries" +
+"connect that finger directly to the heart,” the salesman had told me.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“So you can tell the lucky lady that you’ve" +
+"found the key to her soul.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Women love" +
+"that sort of thing.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>As I admired the" +
+"ring, he had commented, “It is a very nice choice sir, but perhaps a little" +
+"modest, with the stones set into the gold that way?<span style=\"mso-spacerun: yes;\">&nbsp; </span>A proposal can be so much more enchanting" +
+"when you’ve got something a little flashy to show her.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I told him it was what I wanted.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I didn’t bother to explain that I wasn’t" +
+"really intending to pop the question.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Curling" +
+"my fingers, I let the ring slide off my ring finger and caught it deftly with" +
+"the tip of my middle finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>No way was" +
+"I dropping my treasure twice in one day.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>The ring was small, like his hands, and I couldn’t fit it past the second" +
+"joint on my middle finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I tried to" +
+"force it, and suddenly it was stuck on my finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I panicked, and twisted it violently, hissing" +
+"in pain when the skin refused to slide.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>My sergeant would see it.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I’d" +
+"have to explain why I was wearing a feminine engagement ring jammed on the" +
+"wrong finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“I found it!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>“A woman told me I could have it!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>“I’m keeping it for a friend!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>“It’s my bling!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>“I stole it!”<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>“Diamond ring?<span style=\"mso-spacerun: yes;\">&nbsp; </span>What diamond" +
+"ring?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>“My girlfriend wanted me to have" +
+"one too!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>In desperation, I spat a" +
+"little on my finger.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Finally, it popped" +
+"off, and I was able to delegate the ring to my pinky finger.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Even" +
+"on my pinky the gold clung a little tightly to my skin, bonded with sweat and" +
+"sand, but it was comfortable.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I put my" +
+"hand behind my back and imagined the band was one of Hernán’s small fingers," +
+"holding my hand just by the little finger, like a shy child.<span style=\"mso-spacerun: yes;\">&nbsp; </span>His hands were smooth and delicate, even the" +
+"fingertips of his left hand, which should have been calloused from playing the" +
+"guitar.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I knew I was lying to" +
+"myself.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He’d never held my hand in" +
+"public.</span></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<br /></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt;\">***</span></div>" +
+"<div align=\"center\" class=\"MsoNormal\" style=\"text-align: center;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">The" +
+"airport was empty when we got off the plane.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>There weren’t even echoes of footsteps, because the carpeting absorbed" +
+"the noise so well.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I didn’t feel like" +
+"lifting my wrist to check the time.<span style=\"mso-spacerun: yes;\">&nbsp; </span>It" +
+"wouldn’t tell me anything good.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I noted" +
+"a few pay phones in one corner.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Eugene" +
+"almost walked into me.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“What?”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hmm?<span style=\"mso-spacerun: yes;\">&nbsp; </span>Oh.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I" +
+"was still standing in the terminal’s exit.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>I slouched off to the nearest seat to wait for the plane that would take" +
+"me the rest of the way home, dropping my bag at my feet.</span></div>"
++
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Wow," +
+"are you okay, Eiji?<span style=\"mso-spacerun: yes;\">&nbsp; </span>You look" +
+"terrible.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Didn’t you sleep on the" +
+"plane?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>Eugene didn’t look so perky" +
+"himself.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He looked more like the school" +
+"bully had stuffed him into a school locker for a weekend.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Which was kind of true; Eugene was one of" +
+"those people that looked like he was stretched on a rack as a child: almost" +
+"seven feet tall with a torso like a crooked snake.<span style=\"mso-spacerun: yes;\">&nbsp; </span>When I first met him in Basic Training, he’d" +
+"looked like a film student, or a plant left in the dark for too long.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I hadn’t seen much of him since then.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Now he was a seven-foot-tall snakeskin, baked" +
+"brown by the desert sun.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I couldn’t" +
+"imagine that he had been very comfortable crunched into a plane seat.<span style=\"mso-spacerun: yes;\">&nbsp; </span>With all those sharp, crispy angles, I would" +
+"have expected him to snap a few joints.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>But I guess people are always more resilient than they look.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“No," +
+"I’m not very good at sleeping on planes.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Or in cars.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Just can’t get" +
+"comfortable.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Ahww," +
+"that’s too bad.<span style=\"mso-spacerun: yes;\">&nbsp; </span>When’s your flight to Las" +
+"Angeleez?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>Somehow he’d taken Georgia to" +
+"Iraq with him and back.<span style=\"mso-spacerun: yes;\">&nbsp; </span>One of the nice" +
+"things about going home would be leaving all the southern accents from the" +
+"military behind.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Couple" +
+"hours: 4 o’clock, and then another plane after that.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Yours?”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“First" +
+"thing in the morning.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But I’m" +
+"lucky.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Only one more plane to get" +
+"home.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I’m camping out here all night" +
+"though, ah guess.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Why don’t you get some" +
+"sleep here while you can?<span style=\"mso-spacerun: yes;\">&nbsp; </span>I’ll wake you" +
+"up.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>The relief must have etched itself" +
+"strangely on my face, because he misinterpreted it and added, “I promise ah" +
+"won’t fall asleep.<span style=\"mso-spacerun: yes;\">&nbsp; </span>If you don’t make it" +
+"back to Las Angeleez, I’ll drive you there myself.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Eugene," +
+"with your sense of direction, we’d end up in Hong Kong.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“That’d" +
+"kind of be like getting you home.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Sort of.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“I’m" +
+"not even Chi-“</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Relax," +
+"relax.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Calm down.<span style=\"mso-spacerun: yes;\">&nbsp; </span>It was a joke.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I promise.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Las Angeleez.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Los" +
+"Angeles, it’s Los Angeles.<span style=\"mso-spacerun: yes;\">&nbsp; </span>As in, the" +
+"city of nuestra señora la reina de los ángeles.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I spoke with my eyelids clamped firmly shut," +
+"my head heavy with sleep.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Queen" +
+"of the Angels?<span style=\"mso-spacerun: yes;\">&nbsp; </span>That’s beautiful.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“You" +
+"know Spanish?”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“I" +
+"took Spanish in high school.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I’m not an" +
+"idiot, just because ah sound like a redneck sometimes.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Sorry.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I didn’t mean it.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Just homesick.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I let my head fall into my hands.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Eugene’s footsteps wandered off, presumably" +
+"to find food or a bathroom.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"looked up a moment later, when I was sure he was gone, and let my hand slip" +
+"into one of my many pockets.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I traced" +
+"the outline of a gold ring that lay there before pinching the corner of a plastic" +
+"card behind it and pulling the card out.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>I stood, moaning and stretching, and made for one of the pay phones" +
+"across the terminal.<span style=\"mso-spacerun: yes;\">&nbsp; </span>My mother had put" +
+"an obscene amount of money onto that phone card, and I hadn’t had much chance" +
+"to use it.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I squinted at the numbers," +
+"willing them to stop dancing before my tired eyes, and punched them cautiously" +
+"into the phone.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<i style=\"mso-bidi-font-style: normal;\"><span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Briiiiiiiiing….<span style=\"mso-spacerun: yes;\">&nbsp; </span></span></i><span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Some exhausted part of" +
+"my brain wondered vaguely when the earpiece might last have been" +
+"disinfected.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">Briiiiiiiing…</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>How many soldiers" +
+"have survived bombs and shrapnel and guns and lonely vigilance and dying" +
+"children and soldiers who hadn’t even been to college and women without fingers" +
+"" +
+"to come home, get a rare viral ear infection from an unclean phone, and die" +
+"alone, with only a mother’s pity.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">Briiiiiing…</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>I giggled a little, hysteria seizing my lungs" +
+"until I felt asthmatic.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">Briiiiiiiiing…<span style=\"mso-spacerun: yes;\">&nbsp; </span></i>Damn, but the man should have been awake" +
+"at this hour.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He was always up late," +
+"wasn’t he?<span style=\"mso-spacerun: yes;\">&nbsp; </span>Why was the phone still only" +
+"ringing?<span style=\"mso-spacerun: yes;\">&nbsp; </span>He did have answering machine," +
+"didn’t he?<span style=\"mso-spacerun: yes;\">&nbsp; </span>He was always home alone on" +
+"nights like this, working on grand schemes for God knew what.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">Briiiiiiiing…</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>Advertising campaigns.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Books he was going to write.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Companies he was going to start.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Music that would enrage various political" +
+"parties.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">Briiiiiing…</i></span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Please,”" +
+"I begged, forming the words with my lips but too tired to voice it with more" +
+"than the softest breath.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Please.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hola!<span style=\"mso-spacerun: yes;\">&nbsp; </span>Lo siento, pero no estoy aqui en este" +
+"momento.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>Damn, just the machine.<span style=\"mso-spacerun: yes;\">&nbsp; </span>His voice was just as I remembered.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“O puede ser que yo tengo mejores cosas de" +
+"hacer.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Entonces, canta und baila, y" +
+"quizas te llamaré.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"waited for the tone, my heart thumping and my mind suddenly blank despite the" +
+"many times I’d rehearsed the kinds of things I’d love to tell him.<span style=\"mso-spacerun: yes;\">&nbsp; </span><i style=\"mso-bidi-font-style: normal;\">“Hernán," +
+"I miss you.<span style=\"mso-spacerun: yes;\">&nbsp; </span>You wouldn’t believe the" +
+"things I’ve seen.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I need to see" +
+"you.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I want to hear your voice again.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I want you to hold me again and make me feel" +
+"safe.”</i><span style=\"mso-spacerun: yes;\">&nbsp; </span>What was I doing?<span style=\"mso-spacerun: yes;\">&nbsp; </span>What if he really did have “mejores cosas de" +
+"hacer,” better things to do?<span style=\"mso-spacerun: yes;\">&nbsp; </span>I couldn’t" +
+"ask his answering machine.<span style=\"mso-spacerun: yes;\">&nbsp; </span>It was always" +
+"too public for Hernán, leaving evidence like that, even evidence that could be" +
+"listened to at home and erased.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Hey," +
+"Hernán.<span style=\"mso-spacerun: yes;\">&nbsp; </span>It’s Eiji.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I just got back to the U.S. and I’ll be home" +
+"tonight, I think.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Well, more like" +
+"morning.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Anyway.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I- It’s been weird not having you around, I" +
+"guess.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Hope life is okay.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I don’t know how long I’ll be in Los" +
+"Angeles.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I think I might have a job" +
+"waiting for me in Ohio, if I want it.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>Maybe I’ll hear from you.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Erm," +
+"bye.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"threw myself back onto the nearest cushioned bench, looking around to make sure" +
+"no one had heard.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Satisfied, I closed my" +
+"eyes.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<i style=\"mso-bidi-font-style: normal;\"><span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">Someone was playing the" +
+"violin.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I ran over the desert towards" +
+"the sound, to warn them, to let them know this place wasn’t safe.<span style=\"mso-spacerun: yes;\">&nbsp; </span>But the planet was turning too fast.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The sand was like coals under my worn shoes," +
+"and I was sprinting, but the planet was turning too fast, too fast, away from" +
+"the sun.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I reached out to grab" +
+"something, anything, that I might use to pull myself forwards.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I grabbed her wrists.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The blood was dried over her hands, caked" +
+"over the stumps of her fingers.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Those" +
+"wide brown eyes stared at me, frightened, but it was too late.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I had already created the momentum to propel" +
+"myself forward, and so I pulled her towards me and sent her flying off behind" +
+"me, into the darkness that pursued us as the Earth turned.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I couldn’t stop to save her.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I had to save myself, at least.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I had to save the violin.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Something exploded at my feet, and the people" +
+"gathered around me, shouting.<span style=\"mso-spacerun: yes;\">&nbsp; </span>My mother" +
+"was there, her hair pinned neatly back, her small almond eyes" +
+"disapproving.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I was clutching the" +
+"violin, and they kept trying to tell me it wasn’t a violin at all.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Wake up, Eiji!<span style=\"mso-spacerun: yes;\">&nbsp; </span>What are you doing, trying to play that" +
+"guitar?<span style=\"mso-spacerun: yes;\">&nbsp; </span>What are you doing?<span style=\"mso-spacerun: yes;\">&nbsp; </span>Wake up!”</span></i></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">I" +
+"moaned and opened my eyes.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“God, is it" +
+"four already?”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Have" +
+"a nice nap?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>Eugene poked me.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“There’s" +
+"no such thing.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I rubbed my eyes and" +
+"forced myself awake.</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Better" +
+"get going.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The board over there says" +
+"Gate 4 in 10 minutes.”</span></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<span style=\"font-family: &quot;Times New Roman&quot;,&quot;serif&quot;; font-size: 12.0pt; line-height: 200%;\">“Yeah," +
+"thanks.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I grabbed my duffel bag and" +
+"ran.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I imagined, because I couldn’t help" +
+"it, the ringing of that pay phone.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I" +
+"imagined how it would ring and ring and ring all night, trying to call back," +
+"ringing for a silent airport.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I ran" +
+"faster, sprinting for the far side of the Earth.</span></div>"
 
+,
+
+b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Flower," +
+"miss?<span style=\"mso-spacerun: yes;\">&nbsp; </span>Very rare flowers.”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I looked down at" +
+"the peddler’s proffered handful of dandelions.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“I am in no" +
+"particular need of flowers at the moment, but thank you,” I told him, closing" +
+"the door in his face.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Mum, who was" +
+"that?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>Jim entered the kitchen, taking" +
+"his jacket from where it hung by the door.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Just a" +
+"peddler.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Mind you stay away from him-" +
+"he’s a bit odd.”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I knelt at Jim’s eye" +
+"level and put his little cap on.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“It’s a" +
+"bit chilly now it’s getting to be autumn, so you come back soon, all right?”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"Jim nodded and let" +
+"me give him a kiss on his forehead before setting out.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"We live in a" +
+"village of rather superstitious folk.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>The cemetery is as old as the land itself, and though it is not unusual" +
+"in this country to build high walls about the place, it is unusual- and" +
+"inconvenient- to have no gateway.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The" +
+"trouble is that the place must be kept up; the ground there is still fertile" +
+"and, were a village boy not sent to tend it every day, the weeds would so overcome" +
+"the place that no person would be able to find the resting place of their" +
+"relatives.<span style=\"mso-spacerun: yes;\">&nbsp; </span>To this end, a ladder is left" +
+"out on the grass nearby so that each week’s little gardener can make it inside," +
+"and so visitors may come and go without troubling the neighbors.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"Jim returned as I" +
+"was stitching up the holes in his socks, bursting in through the unlocked door" +
+"with the sad remains of a dandelion whose seeds he had blown off.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Mum, let’s put it" +
+"in water and see if it comes back!”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I tried to explain" +
+"to him that it was no use, but he widened his eyes and puffed out a lip and" +
+"said it was a science experiment, so I put the little dead weed in a mug with" +
+"some water and placed it in the center of the table.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Jim sat at the table for a time, staring" +
+"avidly at the thing as though expecting a genie to pop out and grant him five" +
+"wishes.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I continued with my stitching," +
+"and at last he gave up and went out to play.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"The next morning I" +
+"went to the bakery, only to find half the town gossiping over their" +
+"croissants.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Apparently John Farrier’s" +
+"cow had at last given birth.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“But two heads!”" +
+"exclaimed Anna Cunningham.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“It must be a" +
+"sign.”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“It can’t live" +
+"long with two heads,” said a neighbor of John’s.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"Jim’s eyes were" +
+"solemn when I returned and told him the story.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“You mean the calf" +
+"will die?”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I noticed, looking past him," +
+"that the dandelion in the mug was puffy with seeds again.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He must have found another.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Yes, it probably" +
+"will.<span style=\"mso-spacerun: yes;\">&nbsp; </span>Did you go out to the cemetery yet" +
+"today?”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"He nodded and took" +
+"the flower from the table.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Do cows eat" +
+"dandelions?” he asked.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I smiled and told" +
+"him he could take the flower to Farrier’s cow if he wanted.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He set out, and returned later with the stem" +
+"of the flower, placing it proudly on the kitchen table again, informing me very" +
+"matter-of-factly that the calf had eaten the top half, and that I was not to" +
+"throw his flower away.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"There was a bright" +
+"yellow dandelion there the next morning when I left on my way to the grocer’s.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Maryann!” Mrs." +
+"Fox cried as she opened the door to her shop.<span style=\"mso-spacerun: yes;\">&nbsp;" +
+"</span>“Have you heard about John’s calf?”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Yes, of course-" +
+"everyone was talking about it yesterday at the bakery.”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“No!” she" +
+"gasped.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“This morning John went in to" +
+"check on the calf, and there were two of them, whole and healthy!”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I came home with" +
+"wonder in my heart, uncertain if I should worry when I perceived that my son" +
+"was at the table, staring at the little flower in its mug, which was again a" +
+"seedless weed.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Jim,” I asked," +
+"petting his hair, “Did you go and take care-”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"There was a knock" +
+"at the door, and I rose to answer it. <span style=\"mso-spacerun: yes;\">&nbsp;</span>The door creaked as I opened it, and sunlight" +
+"flooded the doorway as a sunny smile lit across the face of one I had not seen" +
+"in four years.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"It was Jim’s" +
+"father.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He had drowned four years" +
+"ago.<span style=\"mso-spacerun: yes;\">&nbsp; </span>I had seen the body.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"My husband," +
+"apparently healthy and alive, reached out to embrace me, and I shrank from him," +
+"crashing into Jim’s small frame, which had snuck up behind me.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"There was a thud" +
+"and the terrible cacophonous smash of fired clay.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He had been standing just behind me with his" +
+"flower in its mug, and I had knocked him to the ground and the flower from his" +
+"hands.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Jim!”<span style=\"mso-spacerun: yes;\">&nbsp; </span>I knelt and touched his cheek.<span style=\"mso-spacerun: yes;\">&nbsp; </span>His eyes were closed.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He didn’t move.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I turned to my" +
+"husband.<span style=\"mso-spacerun: yes;\">&nbsp; </span>He was gone.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I took Jim’s" +
+"hand.<span style=\"mso-spacerun: yes;\">&nbsp; </span>His dandelion rested by his" +
+"head.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The little stem, which had been" +
+"seedless, but green, was now black, as though dried over a fire.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"<br /></div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Pardon, miss,”" +
+"called a voice from the doorway.<span style=\"mso-spacerun: yes;\">&nbsp; </span>“Could" +
+"I interest you in a flower?<span style=\"mso-spacerun: yes;\">&nbsp; </span>It’s a very" +
+"rare flower.”</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"I turned, and" +
+"beheld the proffered dandelion that the small man held directly in front of my" +
+"face.<span style=\"mso-spacerun: yes;\">&nbsp; </span>The delicate thing was a burst of" +
+"wispy, curling white seeds.</div>" +
+"<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5in;\">" +
+"“Make a wish,” he" +
+"said.</div>"
+
+    ,
+
+    b22GazeViz: "<p>I wrote many programs while working for a year in the <a href=\"https://sites.google.com/site/sidneydmello/projects\">Emotive Computing Lab</a> at the University of Notre Dame with Professor Sidney D'Mello. Most of the software I made was for sifting through huge amounts of human subject data. This particular piece allowed us to visualize data from a machine that tracked a participant's gaze as he or she read text. It reads in fixation and meta-data files to create the visualization. It is also possible to sort by meta-data, eg, to view only those pages on which the reader spent more than 10 seconds. The software is extremely flexible in its ability to search for appropriate matching meta-data and screenshots for each trial, even across very different eye tracking experiments. This version is based on an original prototype by Jaqueline Kory that only created simple visualizations for a specific experiment.</p>" +"<p style=\"text-align:right\"><a href=\"https://gist.github.com/jenniferneale/7743003\">See a selection of code from this project.</a></p>"
+
+    ,
+
+    b23Kittens: "<p>A short proof-of-concept role-playing game in which you, the adventurer, must deal with a dragon. This Java applet was written in Eclipse using the ACM library. Available <a href=\"https://dl.dropboxusercontent.com/u/88793979/KittenAdventure.jar\">here</a>.</p>"
+    ,
+    
 
 }
 
