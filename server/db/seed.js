@@ -8,6 +8,12 @@ db.sync({ force: true })
     .then(() => {
         Blogpost.bulkCreate([
             {
+                title: 'Frankenstein v. The Vampires',
+                originalDate: '24 January 2018',
+                cardImage: 'images/FrankCloseup.jpg',
+                body: blogArchive.b24Frank
+            },            
+            {
                 title: 'He Fell in Love with Time',
                 originalDate: '24 July 2015',
                 cardImage: 'images/dandelion.jpg',
