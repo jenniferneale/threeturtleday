@@ -11,6 +11,7 @@ db.sync({ force: true })
                 title: 'Global Kitchen',
                 originalDate: '26 January 2018',
                 cardImage: 'images/global-kitchen.jpg',
+                teaserText: 'A cute and educational restaurant simulator game.',
                 body: blogArchive.b25GlobalKitchen,
             },
             {
