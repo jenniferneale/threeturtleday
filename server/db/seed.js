@@ -11,7 +11,7 @@ db.sync({ force: true })
                 title: 'Global Kitchen',
                 originalDate: '26 January 2018',
                 cardImage: 'images/global-kitchen.jpg',
-                teaserText: 'A cute and educational restaurant simulator game.',
+                teaserText: 'A cute and educational restaurant simulator game using Pixi.js.',
                 body: blogArchive.b25GlobalKitchen,
             },
             {
@@ -19,7 +19,14 @@ db.sync({ force: true })
                 originalDate: '24 January 2018',
                 cardImage: 'images/FrankCloseup.jpg',
                 body: blogArchive.b24Frank
-            },            
+            },
+            {
+                title: 'Teachables',
+                originalDate: '26 January 2018',
+                teaserText: 'An silly ecommerce tutoring website with React, Redux, OAuth, and Stripe.',
+                cardImage: 'images/teachables1.jpg',
+                body: blogArchive.b26Teachables,
+            },
             {
                 title: 'He Fell in Love with Time',
                 originalDate: '24 July 2015',

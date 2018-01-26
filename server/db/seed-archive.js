@@ -923,7 +923,7 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
 
     ,
 
-    b22GazeViz: "<img class=\"img-responsive\" src=\"/images/GazeVizScreenshot.png\"><br>"+"<p>I wrote many programs while working for a year in the <a href=\"https://sites.google.com/site/sidneydmello/projects\">Emotive Computing Lab</a> at the University of Notre Dame with Professor Sidney D'Mello. Most of the software I made was for sifting through huge amounts of human subject data. This particular piece allowed us to visualize data from a machine that tracked a participant's gaze as he or she read text. It reads in fixation and meta-data files to create the visualization. It is also possible to sort by meta-data, eg, to view only those pages on which the reader spent more than 10 seconds. The software is extremely flexible in its ability to search for appropriate matching meta-data and screenshots for each trial, even across very different eye tracking experiments. This version is based on an original prototype by Jaqueline Kory that only created simple visualizations for a specific experiment.</p>" +"<p style=\"text-align:right\"><a href=\"https://gist.github.com/jenniferneale/7743003\">See a selection of code from this project.</a></p>"
+    b22GazeViz: "<img class=\"img-responsive\" src=\"/images/GazeVizScreenshot.png\"><br>"+"<p>I wrote many programs while working for a year in the <a href=\"https://sites.google.com/site/sidneydmello/projects\">Emotive Computing Lab</a> at the University of Notre Dame with Professor Sidney D'Mello. Most of the software I made was for sifting through huge amounts of human subject data. This particular piece allowed us to visualize data from a machine that tracked a participant's gaze as he or she read text. It reads in fixation and meta-data files to create the visualization. It is also possible to sort by meta-data, eg, to view only those pages on which the reader spent more than 10 seconds. The software is extremely flexible in its ability to search for appropriate matching meta-data and screenshots for each trial, even across very different eye tracking experiments. This version is based on an original prototype by Jaqueline Kory that only created simple visualizations for a specific experiment.</p>" +"<p style=\"text-align:right\"><a href=\"https://gist.github.com/jenniferneale/7743003\">See a selection of code from this project.</a> This was written in C# and used WinForms.</p>"
 
     ,
 
@@ -941,6 +941,7 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
     "<a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\"><button class=\"democodebtns btn btn-warning\" type=\"button\">Demo</button></a>"+
     "<a href=\"https://github.com/jenniferneale/FrankvTheVampires\"><button class=\"democodebtns btn btn-primary\" type=\"button\">Code</button></a>"+
     "</div>"+
+    "<div class=\"col-xs-12 text-center\"><div class=\"col-xs-12 col-md-6 col-md-offset-3\"><p><small>Technologies: C#, Unity</small></p></div></div>"+
     "<div class=\"col-xs-12 text-center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-Hp6_iGT2zA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>"
 
     ,
@@ -950,21 +951,40 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
     "<a href=\"http://global-kitchen.herokuapp.com/\"><button class=\"democodebtns btn btn-warning\" type=\"button\">Demo</button></a>"+
     "<a href=\"https://github.com/GH-FoodNetwork/Global-Kitchen\"><button class=\"democodebtns btn btn-primary\" type=\"button\">Code</button></a>"+
     "</div>"+
+    "<div class=\"col-xs-12 text-center\"><div class=\"col-xs-12 col-md-6 col-md-offset-3\"><p><small>Technologies: Javascript, Pixi.js, Redux, Express, Webpack, Heroku</small></p></div></div>"+
     "<p>For our final project during the Grace Hopper program at Fullstack Academy, we were divided into groups to build whatever we wanted in the space of about a week and a half. I had the pleasure to work with <a href=\"https://github.com/cacelii\">Cecilia Chang</a>, <a href=\"https://github.com/anule\">Anule Ndukwo</a>, and <a href=\"https://github.com/N7Layla\">Layla Hedges</a>. "+
     "We decided our two common passions were for food and education. I proposed we make a game. After that, something in the Diner Dash restaurant simulation genre seemed the way to go. Each of us picked a favorite dish from a different continent that players might not have had the chance to try, so we had four starting dishes: arepas from Colombia, beef soup from Taiwan, joloff rice from Nigeria, and vareniki from Ukraine.</p>"+
     "<p>However, starting out was a bit of a struggle: I was the only one with Unity or game-making experience, and we were concerned about the learning curve for Unity for the rest of the team. After some guidance from our teachers, we settled on using Pixi.js, which was a fun challenge to try to pick up quickly. "+
     "We used Redux to perform our state management, although we struggled with organizing our state to be non-destructive; in hindsight, I'm not sure it was necessary for such a small game.</p>"+
     "<p>We continued working with the Agile Scrumban (Scrum + Kanban) methodology used at Fullstack, so we practiced having stand-up meetings each morning, and additional meetings as needed. We created and prioritized tickets for our Scrum board, but didn't schedule out sprints.</p>"+
-    "<p class=\"text-center\"><img class=\"img-responsive rounded story-pic\" src=\"/images/globalkitchen-screen1.png\"></p>"+
+    "<div class=\"col-xs-12 text-center\"><img class=\"img-responsive col-xs-12 col-md-6 col-md-offset-3 rounded story-pic\" src=\"/images/globalkitchen-screen1.png\"></div>"+
     "<p>The result was <i>Global Kitchen</i>, a cute restaurant simulator in which you play the head chef of a restaurant, racing to serve hungry customers. The game opens on the restaurant, and your first customer is at the counter with their requested dish and a timer. "+
     "To start cooking, you click on the cookbook in the lower right-hand corner, where the giant helpful hand of the Sous Chef waits. On the cookbook screen, you can see the four currently available recipes. On each one, you can click \"Cook\" to immediately start making the dish, or \"Recipe\" to read the list of ingredients and steps.</p>"+
-    "<p class=\"text-center\"><img class=\"img-responsive rounded story-pic\" src=\"/images/globalkitchen-screen4.png\"></p>"+
+    "<div class=\"col-xs-12 text-center\"><img class=\"img-responsive col-xs-12 col-md-6 col-md-offset-3 rounded story-pic\" src=\"/images/globalkitchen-screen4.png\"></div>"+
     "<p>The individual recipe page also includes a link to the full recipe: As an educational game, we wanted players to be able to make the dishes in real life after learning about them.</p>"+
-    "<p class=\"text-center\"><img class=\"img-responsive rounded story-pic\" src=\"/images/globalkitchen-screen2.png\"></p>"+
+    "<div class=\"col-xs-12 text-center\"><img class=\"img-responsive col-xs-12 col-md-6 col-md-offset-3 rounded story-pic\" src=\"/images/globalkitchen-screen2.png\"></div>"+
     "<p>Although these recipe screens were initially hard-coded, I rewrote them to be more dynamic, so that items would be automatically laid out evenly on the page. To add a new recipe, we only needed to add the required data to one file, where it was added to an array. I also wrote the sprite atlas, so that we could reuse images easily, and co-wrote the tiling, movement, and update loop. (These are the kinds of things one takes for granted in a larger engine like Unity!)</p>"+
-    "<p>The game could do with some corrections and upgrades (for example, customers often stand on top of one another, and there isn't any audio yet), but for a week and a half with a new minimal library, I'm very pleased with our output. It was also a great opportunity to practice a leadership role, as the only group member with experience in game development. One of the most satisfying experiences of making this game was seeing my dad play our game on Friends and Family Night!</p>"
+    "<p>The game could do with some corrections and upgrades (for example, customers often stand on top of one another, and there isn't any audio yet), but for a week and a half with a new minimal library, I'm very pleased with our output. It was also a great opportunity to practice a leadership role, as the only group member with experience in game development. One of the most satisfying experiences of making this game was seeing my dad play our game on Friends and Family Night!</p>"+
+    "<div class=\"col-xs-12 text-center\"><img class=\"img-responsive col-xs-12 col-md-6 col-md-offset-3 rounded story-pic\" src=\"/images/global-kitchen-dad.jpg\"></div>"
 
     ,
+
+    b26Teachables: "<div class=\"col-xs-12 text-center \" style=\"background-color:gray; padding:5px;\" >"+
+    "<img class=\"img-responsive col-xs-6 rounded\" src=\"/images/teachables1.jpg\">"+
+    "<img class=\"img-responsive col-xs-6 rounded\" src=\"/images/teachables2.jpg\">"+
+    "</div>"+
+    "<div class=\"col-xs-12 text-center \">"+
+    "<a href=\"http://teachables.herokuapp.com/\"><button class=\"democodebtns btn btn-warning\" type=\"button\">Demo</button></a>"+
+    "<a href=\"https://github.com/ellapitassi/Grace-Shopper\"><button class=\"democodebtns btn btn-primary\" type=\"button\">Code</button></a>"+
+    "</div>"+
+    "<div class=\"col-xs-12 text-center\"><div class=\"col-xs-12 col-md-6 col-md-offset-3\"><p><small>Technologies: Javascript, Node, PostgreSQL, Sequelize, Express, Redux, React, OAuth, Stripe, Webpack, Heroku</small></p></div></div>"+
+    "<p>During the Grace Hopper program at Fullstack Academy, we spent the first half of the program going through workshops in pairs, learning new material. When we completed \"junior\" phase and passed our checkpoints, our first chance to put it all together was in the Grace Shopper project.</p>"+
+    "<p>I had the pleasure to work with <a href=\"https://github.com/ellapitassi\">Ella Pitassi</a>, <a href=\"https://github.com/thorsenaa\">Annelise Thorsen</a>, and <a href=\"https://github.com/guangLess\">Guang Zhu.</a> "+
+    "I suggested that it might be fun database design to create a site where the user was also (optionally) the product, so that we could have a single table for both. Because we were all interested in education, a peer tutoring site seemed obvious. We used our class pictures to populate the database with our peers. Ultimately we did sort of have a separate table for products: each user was assigned a few random subjects they could tutor in, called <i>Teachables</i>. This became the name of our site. A user could log in or sign up with Google via OAuth, select the peer tutors and subjects they wanted from each on the Tutors page, rely on a persistent shopping cart via cookies and a transactions database, and check out with Stripe.</p>"+
+    "<p>Although our team was good about pair programming and switching up the pairs so that everyone touched every part of the code, I contributed most significantly to the database design, Express routes, React shopping cart component, Stripe implementation, and deployment to Heroku.</p>"
+
+    ,
+
 }
 
 module.exports = archive;
