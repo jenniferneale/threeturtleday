@@ -935,11 +935,18 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
     "<p>One of the three major projects we build during the Grace Hopper program at Fullstack Academy is Stackathon, in which we have four days to make whatever we want, completely solo. I knew I wanted to make a game, and now seemed as good a time as any for this monstrosity I'd been dying to make!</p>"+
     "<p>In <i>Frankenstein v. The Vampires</i>, Doctor Frankenstein goes to dig up body parts from the cemetery, and discovers to his horror that the dead bodies are alive! Being a scientist and not a fighter, the doctor fights just enough to collect parts to make monsters to fight for him! The more parts you collect and save up, the larger the terrifying limb-ball you'll generate. Each enemy has random stats attached to their limbs, which are passed on to the monsters you create. Limb type also affects stats, so that a monster with many torsos will have very high health.</p>"+
     "<p>This game is written in C# in Unity. A semi-playable version is available here: <a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\">Download for PC.</a><p> Press M for monster. Note that you'll need to kill the program externally, as it doesn't yet end; you just get infinite zombies until your computer runs out of memory."+
+    "<p> Press M for monster. Note that you'll need to kill the program externally, as it doesn't yet end; you just get infinite zombies until your computer runs out of memory.The code is also available, except for the dismemberment script from the Asset store, which I heavily modified, <a href=\"https://github.com/jenniferneale/FrankvTheVampires\">here on GitHub.</a></p>"+
     "<p>The next version will be more playable, having at least one level with set goals and the beginnings of a proper cemetery. The vampires may in fact be vampires instead of zombies, also!</p>"+
-    "<iframe class=\"pull-left\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-Hp6_iGT2zA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe>"
+    "<div>"+
+    "<a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\"><button class=\"btn btn-outline-warning\" type=\"button\">Demo</button></a>"+
+    "<a href=\"https://github.com/jenniferneale/FrankvTheVampires\"><button class=\"btn btn-outline-primary\" type=\"button\">Code</button></a>"+
+    "</div>"+
+    "<div class=\"col-xs-12 text-center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-Hp6_iGT2zA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>"
 
     ,
 
+    b25GlobalKitchen: ""
+    ,
 }
 
 module.exports = archive;
