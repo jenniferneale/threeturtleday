@@ -945,7 +945,17 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
 
     ,
 
-    b25GlobalKitchen: ""
+    b25GlobalKitchen: "<div class=\"col-xs-12 text-center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-xdiuXo7XtQ\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>"+
+    "<div class=\"col-xs-12 text-center \">"+
+    "<a href=\"http://global-kitchen.herokuapp.com/\"><button class=\"democodebtns btn btn-warning\" type=\"button\">Demo</button></a>"+
+    "<a href=\"https://github.com/GH-FoodNetwork/Global-Kitchen\"><button class=\"democodebtns btn btn-primary\" type=\"button\">Code</button></a>"+
+    "</div>"+
+    "<p>For our final project during the Grace Hopper program at Fullstack Academy, we were divided into groups to build whatever we wanted in the space of about a week and a half. I had the pleasure to work with <a href=\"https://github.com/cacelii\">Cecilia Chang</a>, <a href=\"https://github.com/anule\">Anule Ndukwo</a>, and <a href=\"https://github.com/N7Layla\">Layla Hedges</a>. "+
+    "We decided our two common passions were for food and education. I proposed we make a game. After that, something in the Diner Dash restaurant simulation genre seemed the way to go. However, starting out was a bit of a struggle: I was the only one with Unity or game-making experience, and we were concerned about the learning curve for Unity for the rest of the team. After some guidance from our teachers, we settled on using Pixi.js, which was a fun challenge to try to pick up quickly. "+
+    "We used Redux to perform our state management, although we struggled with organizing our state to be non-destructive; in hindsight, I'm not sure it was necessary for such a small game. "+
+    "We continued working with the Agile Scrumban (Scrum + Kanban) methodology used at Fullstack, so we practiced having stand-up meetings each morning, and additional meetings as needed. We created and prioritized tickets for our Scrum board, but didn't schedule out sprints.</p>"+
+    "<p class=\"text-center\"><img class=\"img-responsive rounded story-pic\" src=\"/images/globalkitchen-screen1.png\"></p>"
+
     ,
 }
 

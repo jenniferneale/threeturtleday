@@ -8,6 +8,12 @@ db.sync({ force: true })
     .then(() => {
         Blogpost.bulkCreate([
             {
+                title: 'Global Kitchen',
+                originalDate: '26 January 2018',
+                cardImage: 'images/global-kitchen.jpg',
+                body: blogArchive.b25GlobalKitchen,
+            },
+            {
                 title: 'Frankenstein v. The Vampires',
                 originalDate: '24 January 2018',
                 cardImage: 'images/FrankCloseup.jpg',
