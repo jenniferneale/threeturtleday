@@ -937,9 +937,9 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
     "<p>This game is written in C# in Unity. A semi-playable version is available here: <a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\">Download for PC.</a><p> Press M for monster. Note that you'll need to kill the program externally, as it doesn't yet end; you just get infinite zombies until your computer runs out of memory."+
     "<p> Press M for monster. Note that you'll need to kill the program externally, as it doesn't yet end; you just get infinite zombies until your computer runs out of memory.The code is also available, except for the dismemberment script from the Asset store, which I heavily modified, <a href=\"https://github.com/jenniferneale/FrankvTheVampires\">here on GitHub.</a></p>"+
     "<p>The next version will be more playable, having at least one level with set goals and the beginnings of a proper cemetery. The vampires may in fact be vampires instead of zombies, also!</p>"+
-    "<div>"+
-    "<a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\"><button class=\"btn btn-outline-warning\" type=\"button\">Demo</button></a>"+
-    "<a href=\"https://github.com/jenniferneale/FrankvTheVampires\"><button class=\"btn btn-outline-primary\" type=\"button\">Code</button></a>"+
+    "<div class=\"col-xs-12 text-center \">"+
+    "<a href=\"https://www.dropbox.com/s/ndyo13soybelhhi/FrankvTheVampires.zip?dl=0\"><button class=\"democodebtns btn btn-warning\" type=\"button\">Demo</button></a>"+
+    "<a href=\"https://github.com/jenniferneale/FrankvTheVampires\"><button class=\"democodebtns btn btn-primary\" type=\"button\">Code</button></a>"+
     "</div>"+
     "<div class=\"col-xs-12 text-center\"><iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/-Hp6_iGT2zA\" frameborder=\"0\" allow=\"autoplay; encrypted-media\" allowfullscreen></iframe></div>"
 
