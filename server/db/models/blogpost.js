@@ -1,6 +1,6 @@
 'use strict';
 const { STRING, TEXT, DATE, NOW } = require('sequelize');
-const db = require('./index');
+const db = require('../db');
 // Require all the models
 // Running each model (i.e. table) module (i.e. file) registers each model into our sequelize db so any other part of the application could call db.model('user') OR db.models.user to get access to the `user` model.
 // This works if we all use the same Sequelize instance (instantiated in and exported from `/db/index.js`)
@@ -9,7 +9,7 @@ const db = require('./index');
 // This is also probably a good place for you to set up your associations
 
 //BLOGPOST MODEL
-const Blogpost = db.define('Blogpost', {
+const BlogPost = db.define('Blogpost', {
     title: {
         type: STRING,
         notNull: true
@@ -35,6 +35,4 @@ const Blogpost = db.define('Blogpost', {
 
 
 //EXPORTS
-module.exports = {
-    Blogpost
-}
+module.exports = BlogPost

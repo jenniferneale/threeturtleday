@@ -1,16 +1,22 @@
 'use strict'
 const api = require('express').Router();
 const { db } = require('./db');
-const { Blogpost } = require('./db/blogpost.js');
+const { BlogPost, Tag } = require('./db/models');
 
 api.get('/posts', (req, res, next) => {
-    Blogpost.findAll({ include: [{ all: true }] })
+    BlogPost.findAll({ include: [{ all: true }], order: [['originalDate', 'DESC']] })
+        .then(result => res.status(200).send(result))
+        .catch(console.error);
+})
+
+api.get('/posts/tags', (req, res, next) => {
+    BlogPost.findAll({ include: [{ all: true }], order: [['originalDate', 'DESC']] })
         .then(result => res.status(200).send(result))
         .catch(console.error);
 })
 
 api.get('/posts/:id', (req, res, next) => {
-    Blogpost.findOne({
+    BlogPost.findOne({
         where: { id: req.params.id },
         include: [{ all: true }]
     })
@@ -18,8 +24,8 @@ api.get('/posts/:id', (req, res, next) => {
         .catch(console.error);
 })
 
-api.post('/posts', (req, res, next) => {
-    Blogpost.create({
+/*api.post('/posts', (req, res, next) => {
+    BlogPost.create({
         name: req.body.name,
         email: req.body.email
     }).then(result => res.status(201).send(result))
@@ -27,7 +33,7 @@ api.post('/posts', (req, res, next) => {
 })
 
 api.put('/posts/:id', (req, res, next) => {
-    Blogpost.update({
+    BlogPost.update({
         name: req.body.name,
         email: req.body.email,
         status: req.body.status,
@@ -39,11 +45,11 @@ api.put('/posts/:id', (req, res, next) => {
 })
 
 api.delete('/posts/:id', (req, res, next) => {
-    Blogpost.destroy({
+    BlogPost.destroy({
         where: { id: req.params.id }        
     })
         .then(() => res.status(200).send(req.params.id))
         .catch(console.error);
-})
+})*/
 
 module.exports = api
