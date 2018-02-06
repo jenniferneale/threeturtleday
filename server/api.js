@@ -9,12 +9,6 @@ api.get('/posts', (req, res, next) => {
         .catch(console.error);
 })
 
-api.get('/posts/tags', (req, res, next) => {
-    BlogPost.findAll({ include: [{ all: true }], order: [['originalDate', 'DESC']] })
-        .then(result => res.status(200).send(result))
-        .catch(console.error);
-})
-
 api.get('/posts/:id', (req, res, next) => {
     BlogPost.findOne({
         where: { id: req.params.id },
