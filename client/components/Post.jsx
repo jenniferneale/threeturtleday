@@ -20,7 +20,7 @@ class Post extends Component {
         return <div className="row">    
                 { (this.props.currentPost.id + 1 <= 26) && 
                 <div className="col-sm-1">
-                    <a href={`/posts/${this.props.currentPost.id-1}`}>
+                    <a href={`/posts/${this.props.currentPost.id+1}`}>
                     <span className="fas fa-angle-left fa-lg"></span>
                     </a>
                 </div>
@@ -33,7 +33,7 @@ class Post extends Component {
                 </div>
                 { (this.props.currentPost.id - 1 > 0) && 
                 <div className="col-sm-1">
-                    <a href={`/posts/${this.props.currentPost.id+1}`}>
+                    <a href={`/posts/${this.props.currentPost.id-1}`}>
                     <span className="fas fa-angle-right fa-lg"></span>
                     </a>
                 </div>
