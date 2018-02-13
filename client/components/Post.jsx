@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import { stateProps, acts, fetchThings } from '../reducers';
-import { NavLink } from 'react-router-dom';
-import jQuery from 'jquery';
+
 
 class Post extends Component {
     componentDidMount() {
