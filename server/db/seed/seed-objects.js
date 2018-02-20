@@ -4,6 +4,14 @@ let postData = (tagObjects) => {
     const { fiction, software, comics, games } = tagObjects
     return [
         {
+            id: 27,
+            title: 'Hack the Deep 2018',
+            originalDate: '02 20 2018',
+            cardImage: 'images/Image-Annotation.jpg',
+            teaserText: 'Iron Out the Kinks: Transforming 2D cell biology into smoothed 3D models',
+            body: blogArchive.b27HackTheDeep,
+        },
+        {
             id: 26,
             title: 'Global Kitchen',
             originalDate: '26 January 2018',

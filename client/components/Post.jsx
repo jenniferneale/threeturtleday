@@ -17,7 +17,7 @@ class Post extends Component {
     render() {
         if(this.props.currentPost && this.props.currentPost.title)
         return <div className="row">    
-                { (this.props.currentPost.id + 1 <= 26) && 
+                { (this.props.currentPost.id + 1 <= 27) && 
                 <div className="col-sm-1">
                     <a href={`/posts/${this.props.currentPost.id+1}`}>
                     <span className="fas fa-angle-left fa-lg"></span>
