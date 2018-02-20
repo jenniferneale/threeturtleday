@@ -986,7 +986,8 @@ b21Flowers: "<div class=\"MsoNormal\" style=\"line-height: 200%; text-indent: .5
 
     ,
 
-    b27HackTheDeep: "<img class=\"img-responsive pull-left rounded story-pic\" src=\"/images/whale.jpg\">"+
+    b27HackTheDeep: "<meta property=\"og:image\" content=\"http://www.threeturtleday.com/images/Image-Annotation.jpg\">"+
+    "<img class=\"img-responsive pull-left rounded story-pic\" src=\"/images/whale.jpg\">"+
     "<p>Wow, what a killer time for my second hackathon since finishing the Grace Hopper program! Hack the Deep at the American Museum of Natural History combined my love of frantic project-based learning and coding with the nostalgic memories of being an elementary school kid having a sleepover under a giant blue whale. (Plus wine and cheese!)</p>" +
     "<p>On Friday, I signed up somewhat at random for a tour, and was surprised and delighted to meet <a href=\"https://www.amnh.org/our-research/invertebrate-zoology/staff/postdoctoral-fellows/aaron-a.-heiss-ph.d/\">Dr. Aaron Heiss</a>, who was so tickled to share his work with the tour group of assorted nerds from various branches of coding, design, and science geekdom. Being led around the secret spaces of the Museum is like entering the Cave of Wonders from the Arabian Nights: Beyond the obvious glamor of the exhibits, every room and hallway of the Museum is crowded with treasures too numerous to count or enjoy in a single lifetime. One runs past bivalves and tree cores trying to keep up. Oh, those inconspicuous lockers narrowing the hallway? They contain every species of butterfly known to man; no big deal. Touch nothing but the lamp!</p>" +
     "<img class=\"img-responsive pull-right col-sm-6 rounded story-pic\" src=\"/images/protists.png\"><br>"+
